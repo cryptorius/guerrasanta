@@ -1,0 +1,156 @@
+.index{
+	margin: 0px 50px 60px 80px;
+	color: white;
+	background-image:url(img/fondoweb.gif);
+	background-color: black;
+	background-position:top center;
+	background-attachment:fixed;
+	}
+.pie{
+text-align:center;
+color:#ffffff;
+text-transform:capitalize;
+width: 100%;
+height:40px;
+float: left;
+
+}
+.pie a{
+color:#ffffff;
+text-decoration: none;
+}
+.pie a:hover{
+color:#CCCCCC;
+}
+.validar{
+	margin: 0px 50px 60px 80px;
+	color: white;
+	}
+.pres{ background-repeat:no-repeat;
+background-position:center;
+text-align:center;
+font-family:Bleeding_Cowboys, Times, serif;
+font-size:48px
+}
+.menu{
+border-width: 1px 1px 0 1px;
+width: 150px;
+font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.menu ul, li {
+text-align:center;
+list-style-type: none;
+text-transform:capitalize;
+vertical-align:middle
+}
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	}
+.menu ul ul{
+	font-style: oblique;
+	}
+.menu a {
+color:#FFFFFF;
+text-decoration: none;
+background-image:url(img/menu_cen.png);
+background-repeat:no-repeat;
+display: block;
+padding: 5px 3px 0px;
+width: 150px;
+height:40px;
+}
+.menu a:hover {
+color:#cccccc;
+}
+.error{
+text-transform:capitalize;
+font-size:18px;
+color:#FF0000;}
+.reg{
+text-transform:capitalize;
+font-size:24px;
+color:#FFFFFF;
+}
+.reg a{
+text-decoration: none;
+text-transform:capitalize;
+color:#FFFFFF;
+}
+.reg a:hover {
+color:#cccccc;
+}
+.pag_gene{
+background-color: white;
+color:#ffffff;
+width: 150px;
+height: 250px;
+float: left;
+}
+.noticia {
+background-color: black;
+color: white;
+}
+//tooltip
+#tooltip {
+	position: absolute;
+	top: -1000px; /* avoid the IE6 cache optimisation with hidden blocks */
+	z-index: 100;
+	width: 250px;
+	color: white;
+}
+
+#tooltip .header {
+	background-image: url(/img/design/tooltip_header.gif);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+#tooltip .content {
+	background-image: url(/img/design/tooltip_bg.gif);
+}
+#tooltip .footer {
+	background-image: url(/img/design/tooltip_footer.gif);
+	height: 11px;
+	font-size: 0pt;
+	line-height: 0pt;
+}
+
+#tooltip .title {
+	color: #fee9c2;
+	font-weight: bold;
+	font-size: 10pt;
+	border-bottom: 2px solid #fee9c2;
+	margin: 0px 10px 3px 8px;
+	padding-top: 2px;
+}
+
+#tooltip .titleOnly {
+	color: #fee9c2;
+	font-weight: bold;
+	font-size: 12pt;
+	margin: 0px 10px 0px 8px;
+	padding-top: 5px;
+}
+
+#tooltip p {
+	margin: 0px;
+	font-size: 9pt;
+	line-height: 10.5pt;
+	padding: 0px 7px 5px 15px;
+}
+
+#tooltip img {
+	margin-left: 80px;
+}
+
+.helpLink, .helpLink:hover{
+	text-decoration: none;
+}
+
+.helpLink {
+	cursor			: help;
+}
+
+.helpLink img {
+	vertical-align: middle;
+}
